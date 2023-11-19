@@ -1,0 +1,44 @@
+.select {
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #323232;
+   border-radius: 5px;
+   background: transparent;
+   color: white;
+   cursor: pointer;
+   transition: 0.3s border-color;
+
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+
+   background: url('../../assets/arrow.svg') no-repeat right center;
+   background-size: 20px;
+}
+
+.select:hover {
+   border-color: #4a4a4a;
+}
+
+.select option {
+   outline: none;
+   border-color: #4a4a4a;
+   background: #242424;
+   color: #ffffff;
+   padding: 7px;
+   transition: 0.2s background-color;
+}
+
+select option:checked {
+   background-color: #4a4a4a;
+   color: #fff;
+}
+
+.select option:hover {
+   background-color: #4a4a4a;
+}
+
+.select:disabled {
+   opacity: 0.7;
+   cursor: not-allowed;
+}

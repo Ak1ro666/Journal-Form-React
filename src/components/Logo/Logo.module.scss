@@ -1,0 +1,9 @@
+@import url('../../styles/animation.scss');
+
+.logo {
+   max-width: 108px;
+   width: 100%;
+   opacity: 0;
+   visibility: hidden;
+   animation: topSlideLogo 1.2s forwards;
+}

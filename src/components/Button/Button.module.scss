@@ -1,0 +1,25 @@
+.button {
+   border-radius: 8px;
+   border: 1px solid transparent;
+   padding: 8px 30px;
+   font-weight: 500;
+   font-family: inherit;
+   cursor: pointer;
+   transition: border-color 0.25s;
+   color: white;
+   max-width: 100%;
+   width: 100%;
+
+   &:hover {
+      border-color: #222096;
+   }
+}
+
+.accent {
+   background: #4d4bda;
+   transition: 0.2s all ease-in-out;
+
+   &:hover {
+      background: #312eb5;
+   }
+}

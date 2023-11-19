@@ -1,0 +1,15 @@
+.leftPanel {
+   min-width: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+
+   select {
+      min-width: 100%;
+   }
+
+   > p {
+      font-size: 22px;
+   }
+}

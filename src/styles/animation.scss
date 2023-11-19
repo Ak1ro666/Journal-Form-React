@@ -1,0 +1,28 @@
+@keyframes topSlide {
+   0% {
+      transform: translateY(-150px);
+      visibility: hidden;
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateY(0);
+      visibility: visible;
+      opacity: 1;
+   }
+}
+
+@keyframes topSlideLogo {
+   0% {
+      transform: translateY(-50px);
+      visibility: hidden;
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateY(0);
+      visibility: visible;
+      opacity: 1;
+   }
+}
+
